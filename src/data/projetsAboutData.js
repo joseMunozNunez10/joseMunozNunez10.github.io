@@ -1,6 +1,17 @@
 import urbanStyle from "../assets/img-projects/urbanStyle.png";
 import imgNote from "../assets/img-projects/note-app.png";
 
+export const aboutData = {
+  name: "Jose Muñoz Nuñez",
+  profession: "Android Developer",
+  description:
+    "Mi nombre es Jose Muñoz, soy Desarrollador de Software enfocado en el ecosistema Android. Actualmente me desempeño como Android Developer, especializado en la creación de experiencias móviles fluidas y centradas en el usuario. Trabajo con tecnologías como Kotlin, Jetpack Compose, Android Jetpack, Firebase, Material Design, Git, y herramientas como Android Studio y Figma, entre otras.",
+  social: {
+    linkedin: "https://www.linkedin.com/in/josemunoznunez/",
+    github: "https://github.com/joseMunozNunez10",
+  },
+};
+
 export const proyectos = [
   {
     titulo: "E-commerce Urban Style",

@@ -1,5 +1,16 @@
 export const jobs = [
   {
+    title: "Android Developer",
+    time: ["2024 - Presente"],
+    description:
+      "Desarrollo de aplicaciones móviles nativas para Android con enfoque en experiencia del usuario y rendimiento.",
+    list: [
+      "Kotlin y Jetpack Compose para desarrollo de interfaces modernas",
+      "Android Jetpack, Firebase, Material Design",
+      "Git y herramientas como Android Studio y Figma",
+    ],
+  },
+  {
     title: "Frontend Developer - Neowyze",
     time: ["12/2024 - 05/2025"],
     description:
