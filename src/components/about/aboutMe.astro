@@ -1,5 +1,6 @@
 ---
 import MiFoto from "../../assets/img/MiFoto.png";
+import { profileData } from "../../data/config.js";
 ---
 
 <!-- Contenedor principal -->
@@ -12,7 +13,7 @@ import MiFoto from "../../assets/img/MiFoto.png";
   >
     <img
       src={MiFoto.src}
-      alt="Foto de Lautaro"
+      alt={`Foto de ${profileData.name}`}
       class="h-full w-full object-cover"
     />
   </div>
@@ -20,54 +21,8 @@ import MiFoto from "../../assets/img/MiFoto.png";
   <!-- Texto -->
   <div class="flex-1 text-center text-gray-300 lg:text-left">
     <h2 class="text-3xl font-bold text-white">
-      Mi nombre es <span class="text-white text-shadow">Lautaro</span>
+      Mi nombre es <span class="text-white text-shadow">{profileData.name}</span>
     </h2>
-    <p class="mt-4">
-      Soy de <span class="text-primary font-semibold">Argentina</span> y actualmente
-      me desempeño como
-      <span class="text-primary font-semibold"
-        >desarrollador de software full-stack</span
-      >, con un enfoque en el <span class="text-primary font-semibold"
-        >desarrollo front-end</span
-      > y la
-      <span class="text-primary font-semibold">experiencia del usuario</span>,
-      usando tecnologías como <span class="text-primary italic"
-        >React, Astro, JavaScript, TypeScript, Bootstrap, Tailwind, CSS,
-        Node.js, Express.js, MongoDB y MySQL</span
-      >.
-    </p>
-    <p class="mt-2">
-      Mi interés por la <span class="text-primary font-semibold"
-        >tecnología</span
-      > y la
-      <span class="text-primary font-semibold">programación</span> surgió mientras
-      cursaba una
-      <span class="text-primary font-semibold"
-        >Tecnicatura Universitaria en Automatización</span
-      > en la
-      <span class="text-primary font-semibold">UnCuyo</span>. En la clase de <span
-        class="text-primary font-semibold">informática</span
-      > tuve mi primer contacto con el mundo de la programación. Motivado por la
-      <span class="text-primary font-semibold">curiosidad</span>, continué
-      estudiando de manera
-      <span class="text-primary font-semibold">autodidacta</span>, luego en una
-      <span class="text-primary font-semibold"
-        >Tecnicatura enfocada en desarrollo de software</span
-      >, y decidí que esto era a lo que quería dedicarme a nivel <span
-        class="text-primary font-semibold">profesional</span
-      >.
-    </p>
-    <p class="mt-2">
-      Siempre estoy comprometido con un <span class="text-primary font-semibold"
-        >constante crecimiento</span
-      > y
-      <span class="text-primary font-semibold">mejora</span> en mis habilidades,
-      buscando adaptarme a los nuevos
-      <span class="text-primary font-semibold">avances tecnológicos</span> y superarme
-      a nivel
-      <span class="text-primary font-semibold">profesional</span> y <span
-        class="text-primary font-semibold">personal</span
-      >.
-    </p>
+    <p class="mt-4">{profileData.description}</p>
   </div>
 </div>

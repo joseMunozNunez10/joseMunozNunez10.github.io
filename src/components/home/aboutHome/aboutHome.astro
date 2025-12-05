@@ -1,6 +1,7 @@
 ---
 import { HiArrowRight } from "react-icons/hi";
 import MiFoto from "../../../assets/img/MiFoto.png";
+import { profileData } from "../../../data/config.js";
 ---
 
 <section class="relative flex items-center justify-center px-4 pt-16">
@@ -19,7 +20,7 @@ import MiFoto from "../../../assets/img/MiFoto.png";
     >
       <img
         src={MiFoto.src}
-        alt="Foto de Lautaro"
+        alt={`Foto de ${profileData.name}`}
         class="h-full w-full object-cover"
       />
     </div>
@@ -31,11 +32,7 @@ import MiFoto from "../../../assets/img/MiFoto.png";
         Sobre Mí
       </h2>
       <p class="mt-2 font-semibold">
-        Mi nombre es Lautaro, soy Desarrollador de Software y actualmente me
-        desempeño como Web Developer, con un enfoque en el Frontend y la
-        experiencia del usuario. Trabajo con tecnologías como React, Node.js,
-        Astro, JavaScript, TypeScript, Bootstrap, Tailwind CSS, SASS, Figma,
-        entre otras.
+        {profileData.description}
       </p>
 
       <a

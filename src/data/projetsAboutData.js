@@ -19,7 +19,7 @@ export const proyectos = [
     imagen: urbanStyle.src,
     tecnologias: ["React", "Tailwind", "Firebase"],
     demo: "https://proyecto-final-rodriguez-sable.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ProyectoFinal-Rodriguez.git",
+    codigo: "https://github.com/joseMunozNunez10/ProyectoFinal-Rodriguez.git",
   },
   {
     titulo: "Tienda Artesana",
@@ -34,13 +34,13 @@ export const proyectos = [
     imagen: imgNote.src,
     tecnologias: ["React", "Tailwind", "Express", "MongoDB"],
     demo: "https://front-react-todo.onrender.com",
-    codigo: "https://github.com/Lautaro-R-collins/Front-react-todo",
+    codigo: "https://github.com/joseMunozNunez10/Front-react-todo",
   },
   {
     titulo: "API REST",
     imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
     tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
     demo: "https://back-express-todo.onrender.com",
-    codigo: "https://github.com/Lautaro-R-collins/Back-express-todo.git",
+    codigo: "https://github.com/joseMunozNunez10/Back-express-todo.git",
   },
 ];
