@@ -2,6 +2,7 @@
 import { FiMenu, FiX } from "react-icons/fi";
 import NotificationBell from "./notificationBell.jsx";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa6";
+import { profileData } from "../../../data/config.js";
 
 const links = [
   { name: "Inicio", href: "/" },
@@ -47,23 +48,11 @@ const links = [
         <li class="flex items-center gap-3">
           <NotificationBell client:visible />
 
-          <a
-            href="https://www.linkedin.com/in/lautaro-rodr%C3%ADguez-collins-40505624a/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn"
-          >
-            <FaLinkedinIn
-              className="h-7 w-7 cursor-pointer hover:text-[#7836cf]"
-            />
+          <a href={profileData.social.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <FaLinkedinIn className="h-7 w-7 cursor-pointer hover:text-[#7836cf]" />
           </a>
 
-          <a
-            href="https://github.com/Lautaro-R-collins"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-          >
+          <a href={profileData.social.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <FaGithub className="h-7 w-7 cursor-pointer hover:text-[#7836cf]" />
           </a>
         </li>

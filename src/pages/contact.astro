@@ -2,15 +2,11 @@
 import Layout from "../layouts/Layout.astro";
 import MiFoto from "../assets/img/MiFoto.png";
 import CopyMail from "../components/links/copyMail.jsx";
+import { profileData } from "../data/config.js";
 
 const links = [
-  {
-    href: "https://www.linkedin.com/in/lautaro-rodr%C3%ADguez-collins-40505624a/",
-    label: "LinkedIn",
-  },
-  { href: "https://github.com/Lautaro-R-collins", label: "GitHub" },
-  { href: "https://x.com/lautarodevelops/", label: "Twitter" },
-  { href: "mailto:lautarodevelops@gmail.com", label: "Email" },
+  { href: profileData.social.linkedin, label: "LinkedIn" },
+  { href: profileData.social.github, label: "GitHub" },
 ];
 ---
 
@@ -24,7 +20,7 @@ const links = [
           <!-- Foto con borde -->
           <img
             src={MiFoto.src}
-            alt="Foto de Lautaro"
+            alt="Foto de Jose Muñoz"
             class="border-primary h-32 w-32 rounded-full shadow-lg"
           />
 

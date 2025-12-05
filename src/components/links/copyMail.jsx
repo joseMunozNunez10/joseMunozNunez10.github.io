@@ -3,9 +3,10 @@ import { FaRegCopy } from "react-icons/fa";
 
 export default function EmailCopy() {
   const [copied, setCopied] = useState(false);
-  const email = "lautarodevelops@gmail.com ";
+  const email = "";
 
   const copyToClipboard = async () => {
+    if (!email) return;
     try {
       await navigator.clipboard.writeText(email);
       setCopied(true);
@@ -14,6 +15,8 @@ export default function EmailCopy() {
       console.error("Error al copiar: ", err);
     }
   };
+
+  if (!email) return null;
 
   return (
     <div className="m-6 flex items-center gap-3 ">
