@@ -15,6 +15,7 @@ export const profileData = {
     linkedin: "https://www.linkedin.com/in/josemunoznunez/",
     github: "https://github.com/joseMunozNunez10",
   },
+  email: "jose.munoz.nunez@gmail.com",
 };
 
 // ============================================
