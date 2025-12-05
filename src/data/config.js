@@ -22,53 +22,19 @@ export const profileData = {
 // ============================================
 export const experience = [
   {
-    title: "Android Developer",
-    company: "",
+    title: "Android Developer - Freelance",
+    company: "Freelance",
     time: ["2024 - Presente"],
     description:
-      "Desarrollo de aplicaciones móviles nativas para Android con enfoque en experiencia del usuario y rendimiento.",
+      "Desarrollo de aplicaciones móviles nativas para Android con arquitectura sólida, enfoque en UX y buenas prácticas.",
     list: [
-      "Kotlin y Jetpack Compose para desarrollo de interfaces modernas",
-      "Android Jetpack, Firebase, Material Design",
-      "Git y herramientas como Android Studio y Figma",
+      "Kotlin, MVVM y Jetpack Compose para interfaces modernas y reactivas",
+      "Integración con APIs REST usando Retrofit",
+      "Persistencia de datos con Room, Flow y LiveData",
+      "Implementación de Material Design 3 y navegación por componentes",
+      "Control de versiones con Git y uso de Android Studio y Figma",
     ],
-  },
-  {
-    title: "Frontend Developer - Neowyze",
-    company: "Neowyze",
-    time: ["12/2024 - 05/2025"],
-    description:
-      "Desarrollo de webs responsivas basadas en diseños de Figma, utilizando Astro, React, Tailwind y otras librerías frontend.",
-    list: [
-      "Jira para gestión de tareas y Git/GitHub para control de versiones",
-      "Metodología ágil Scrum con sprints de 2 semanas",
-    ],
-  },
-  {
-    title: "Frontend Developer - Vegna",
-    company: "Vegna",
-    time: ["05/2024 - 02/2024"],
-    description: "Desarrollo y mantenimiento de interfaces de usuario con:",
-    list: ["JavaScript - TypeScript", "React - Next.js", "Tailwind", "Shadcn"],
-  },
-  {
-    title: "Frontend Developer - Igrowker",
-    company: "Igrowker",
-    time: ["07/2022 - 08/2022"],
-    description: "Desarrollo y mantenimiento de interfaces de usuario con",
-    list: ["React - React Router - Context API - CSS - Material UI"],
-  },
-  {
-    title: "Web Developer - NoCountry",
-    company: "NoCountry",
-    time: ["03/2022 - 06/2022"],
-    description:
-      "Desarrollo de aplicaciones web responsivas MVP fullstack usando tecnologías como",
-    list: [
-      "Frontend: React - React Router - Context API - Tailwind CSS",
-      "Backend: API REST con Express.js y MongoDB",
-    ],
-  },
+  }
 ];
 
 // ============================================
@@ -77,115 +43,43 @@ export const experience = [
 export const projects = [
   {
     id: 1,
-    title: "App Organización",
+    title: "App Gala taiel",
     description:
-      "App full-stack con funciones CRUD, creación de tableros y listas, autenticación de usuarios, desarrollada con MERN stack.",
-    image: new URL("../assets/img-projects/note-app.png", import.meta.url).href,
-    technologies: ["React", "Tailwind", "Express", "MongoDB"],
-    demo: "https://front-react-todo.onrender.com",
-    repository: "https://github.com/Lautaro-R-collins/Front-react-todo",
-    category: "fullstack",
+      "Aplicación móvil Android con funciones CRUD, creación de tableros y listas, autenticación de usuarios y sincronización en tiempo real, desarrollada con Kotlin, MVVM, Jetpack y Firebase",
+    image: new URL("../assets/img-projects/mackup1.png", import.meta.url).href,
+    technologies: ["Kotlin", "Jetpack", "Firebase", "MVVM, Coroutines, Flow, LiveData, Room"],    
+    repository: "https://github.com/joseMunozNunez10/Gala8voTaiel",
+    category: "Android",
   },
   {
     id: 2,
-    title: "E-commerce Urban Style",
+    title: "Agenda Perdonal",
     description:
-      "E-commerce funcional de ropa y accesorios, con carrito de compras, categorías y pasarela de pago desarrollado en React.",
-    image: new URL("../assets/img-projects/urbanStyle.png", import.meta.url).href,
-    technologies: ["React", "Tailwind", "Firebase"],
-    demo: "https://proyecto-final-rodriguez-sable.vercel.app/",
-    repository: "https://github.com/Lautaro-R-collins/ProyectoFinal-Rodriguez.git",
-    category: "fullstack",
+      "AgendaPersonal es tu asistente ideal para organizar tu vida. Gestiona eventos con alarmas y notificaciones, y mantén tus finanzas bajo control. ¡Todo en una app moderna y fácil de usa",
+    image: new URL("../assets/img-projects/IMG-20251018-WA0021.jpg", import.meta.url).href,
+    technologies: ["Kotlin", "MVVM", "Hilt", "Jetpack Navigation", "Coroutines"],    
+    repository: "https://github.com/joseMunozNunez10/AgendaPersonal",
+    category: "Android",
   },
   {
     id: 3,
-    title: "Tienda Artesana",
+    title: "Referidos App",
     description:
-      "Ecommerce Full-Stack para ver, comprar y vender tus productos, con login para usuarios y vendedores.",
-    image:
-      "https://i.pinimg.com/736x/c9/70/bf/c970bfbc24489e39418b2c1b1f8f74ef.jpg",
-    technologies: ["React", "Node", "Express", "MongoDB"],
-    demo: "https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/",
-    repository: "https://github.com/No-Country-simulation/c21-05-ft-node-react",
-    category: "fullstack",
-  },
-  {
-    id: 4,
-    title: "Tracker Ingresos-Gastos",
-    description:
-      "App que realiza operaciones CRUD para agregar, ver, editar y eliminar ingresos/gastos.",
-    image:
-      "https://i.pinimg.com/736x/a4/85/c4/a485c4da3e78f4f518ddbcdb6637bacf.jpg",
-    technologies: ["React", "Context API"],
-    demo: "https://traker-gastos-ingresos.onrender.com/",
-    repository: "https://github.com/Lautaro-R-collins/Traker-Gastos-Ingresos",
-    category: "frontend",
-  },
-  {
-    id: 5,
-    title: "App Clima",
-    description:
-      "Aplicación hecha con React que utiliza una API para mostrar el clima en tiempo real.",
-    image:
-      "https://i.pinimg.com/736x/10/6e/cd/106ecd1bfe5ed1c3defb83ea0f87a334.jpg",
-    technologies: ["React", "Context API", "Tailwind"],
-    demo: "https://app-clima-om19.onrender.com/",
-    repository: "https://github.com/Lautaro-R-collins/app-clima",
-    category: "frontend",
-  },
-  {
-    id: 6,
-    title: "Legal Staff",
-    description:
-      "Web desarrollada con Astro y Tailwind, embudo de marketing para estudios jurídicos.",
-    image: new URL("../assets/img-projects/legalweb.webp", import.meta.url).href,
-    technologies: ["Astro", "Tailwind", "JavaScript"],
-    demo: "https://legal-staff.vercel.app/",
-    repository: "https://github.com/Lautaro-R-collins/legal-staff",
-    category: "frontend",
-  },
-  {
-    id: 7,
-    title: "Medicare",
-    description:
-      "Web desarrollada con Astro y Tailwind, embudo de marketing para Obras Sociales.",
-    image: new URL("../assets/img-projects/medicare.jpg", import.meta.url).href,
-    technologies: ["Astro", "Tailwind", "JavaScript"],
-    demo: "https://obra-social-landing.vercel.app/",
-    repository: "https://github.com/Lautaro-R-collins/obra-social-landing.git",
-    category: "frontend",
-  },
-  {
-    id: 8,
-    title: "AstroFit",
-    description:
-      "Web desarrollada con Astro y Tailwind, embudo de marketing para asesorías fitness.",
-    image: new URL("../assets/img-projects/Astrofit.jpg", import.meta.url).href,
-    technologies: ["Astro", "Tailwind", "JavaScript"],
-    demo: "https://gym-page-sandy.vercel.app/",
-    repository: "https://github.com/Lautaro-R-collins/GymPage.git",
-    category: "frontend",
-  },
-  {
-    id: 9,
-    title: "100 Days Coding in JS",
-    description: "100 proyectos realizados con HTML, CSS y JavaScript.",
-    image:
-      "https://i.pinimg.com/736x/3b/4f/4e/3b4f4e170fcb1795b88f4941f49df0a2.jpg",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    demo: "https://one00-proyects-web.onrender.com/",
-    repository: "https://github.com/Lautaro-R-collins/100-days-of-coding-in-JS",
-    category: "frontend",
-  },
+      "Aplicación móvil Android en desarrollo para gestionar y compartir referidos de productos y servicios, con autenticación de usuarios, almacenamiento local y sincronización en la nube, desarrollada con Kotlin, Jetpack y Firebase.",
+    image: new URL("../assets/img-projects/referidosapp.png", import.meta.url).href,
+    technologies: ["Kotlin", "Jetpack", "Firebase", "MVVM,"],    
+    repository: "https://github.com/joseMunozNunez10/ReferidosApp",
+    category: "Android",
+  },  
 ];
 
 // ============================================
 // HABILIDADES
 // ============================================
 export const skills = {
-  languages: ["Kotlin", "JavaScript", "TypeScript", "HTML", "CSS"],
-  frontend: ["React", "Astro", "Tailwind CSS", "Material UI", "Jetpack Compose"],
-  backend: ["Node.js", "Express.js", "Firebase", "MongoDB"],
+  languages: ["Kotlin", "JavaScript", "HTML", "CSS", "python"],
+  frontend: ["Material Disaing", "Material Design", "Jetpack Compose en aprendisaje"],
+  backend: ["Firebase (Firestore, Authentication, Storage, Cloud Messaging)"],
   tools: ["Git", "GitHub", "Android Studio", "Figma", "VS Code", "Jira"],
 };
 
