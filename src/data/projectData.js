@@ -7,127 +7,31 @@ import Verbenas from "../assets/img-projects/challenge-newyze.png";
 
 export const proyectos = [
   {
-    titulo: "App organizacion",
+    titulo: "Referidos App",
     descripcion:
-      "App full-stack con funciones CRUD, creacion de tableros y listas, autentificacion de usuarios, desarrollada con MERN stack.",
-    imagen: imgNote.src,
-    tecnologias: ["React", "Tailwind", "Express", "MongoDB"],
-    demo: "https://front-react-todo.onrender.com",
-    codigo: "https://github.com/joseMunozNunez10/Front-react-todo",
-    categoria: "fullstack",
+      "Desarrollo de App para gestionar y seguir referidos fácilmente, impulsando el crecimiento de tu red.",
+    imagen: "https://i.pinimg.com/736x/d8/af/93/d8af930402c8e821f9340a5c9b6a77cb.jpg",
+    tecnologias: ["Kotlin", "Jetpack", "Firebase", "MVVM"],  
+    codigo: "https://github.com/joseMunozNunez10/ReferidosApp",
+    categoria: "Android",
   },
   {
-    titulo: "E-commerce Urban Style",
+    titulo: "Gala Taiel",
     descripcion:
-      "E-commerce funcional de ropa y accesorios, con carrito de compras categorias y pasarela de pago desarrollado en React.",
-    imagen: urbanStyle.src,
-    tecnologias: ["React", "Tailwind", "Firebase"],
-    demo: "https://proyecto-final-rodriguez-sable.vercel.app/",
-    codigo: "https://github.com/joseMunozNunez10/ProyectoFinal-Rodriguez.git",
-    categoria: "fullstack",
+      "App para vivir la Gala Taiel con información, interacción y experiencia totalmente digital. red social en tiempo real.",
+    imagen: "https://i.pinimg.com/736x/41/f7/4b/41f74b8efd608f0652a26f85697fc94e.jpg",
+    tecnologias: ["Kotlin", "Jetpack", "Firebase", "MVVM, Coroutines, Flow, LiveData, Room"],  
+    codigo: "https://github.com/joseMunozNunez10/Gala8voTaiel",
+    categoria: "Android",
   },
   {
-    titulo: "Tienda Artesana",
+    titulo: "Agenda Personal",
     descripcion:
-      "Ecommerce Full-Stack para ver, comprar y vender tus productos, con login para usuarios y vendedores.",
+      "App para organizar tu vida: gestiona eventos con alarmas y notificaciones, y mantén tus finanzas bajo control. ¡Todo en una app moderna y fácil de usar!",
     imagen:
-      "https://i.pinimg.com/736x/c9/70/bf/c970bfbc24489e39418b2c1b1f8f74ef.jpg",
-    tecnologias: ["React", "Node", "Express", "MongoDB"],
-    demo: "https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/",
-    codigo: "https://github.com/No-Country-simulation/c21-05-ft-node-react",
-    categoria: "fullstack",
-  },
-  {
-    titulo: "Traker Ingresos-Gastos",
-    descripcion:
-      "App que realiza operaciones CRUD para agregar, ver, editar y eliminar ingresos/gastos.",
-    imagen:
-      "https://i.pinimg.com/736x/a4/85/c4/a485c4da3e78f4f518ddbcdb6637bacf.jpg",
-    tecnologias: ["React", "contextAPI"],
-    demo: "https://traker-gastos-ingresos.onrender.com/",
-    codigo: "https://github.com/joseMunozNunez10/Traker-Gastos-Ingresos",
-    categoria: "frontend",
-  },
-  {
-    titulo: "App-clima",
-    descripcion:
-      "Aplicación hecha con React que utiliza una API para mostrar el clima en tiempo real.",
-    imagen:
-      "https://i.pinimg.com/736x/10/6e/cd/106ecd1bfe5ed1c3defb83ea0f87a334.jpg",
-    tecnologias: ["React", "contextAPI", "tailwind"],
-    demo: "https://app-clima-om19.onrender.com/",
-    codigo: "https://github.com/joseMunozNunez10/app-clima",
-    categoria: "frontend",
-  },
-  {
-    titulo: "Legal Staff",
-    descripcion:
-      "Web desarrollada con Astro y Tailwind, embudo de marketing para estudios jurídicos.",
-    imagen: legalWeb.src,
-    tecnologias: ["Astro", "tailwind", "JavaScript"],
-    demo: "https://legal-staff.vercel.app/",
-    codigo: "https://github.com/joseMunozNunez10/legal-staff",
-    categoria: "frontend",
-  },
-  {
-    titulo: "Medicare",
-    descripcion:
-      "Web desarrollada con Astro y Tailwind, embudo de marketing para Obras Sociales.",
-    imagen: mediCare.src,
-    tecnologias: ["Astro", "tailwind", "JavaScript"],
-    demo: "https://obra-social-landing.vercel.app/",
-    codigo: "https://github.com/joseMunozNunez10/obra-social-landing.git",
-    categoria: "frontend",
-  },
-  {
-    titulo: "AstroFit",
-    descripcion:
-      "Web desarrollada con Astro y Tailwind, embudo de marketing para asesorias fitness.",
-    imagen: astroFit.src,
-    tecnologias: ["Astro", "tailwind", "JavaScript"],
-    demo: "https://gym-page-sandy.vercel.app/",
-    codigo: "https://github.com/joseMunozNunez10/GymPage.git",
-    categoria: "frontend",
-  },
-  {
-    titulo: "100 days coding in Js",
-    descripcion: "100 proyectos, realizados con HTML, CSS y JavaScript.",
-    imagen:
-      "https://i.pinimg.com/736x/3b/4f/4e/3b4f4e170fcb1795b88f4941f49df0a2.jpg",
-    tecnologias: ["Next.js", "Tailwind", "GraphQL"],
-    demo: "https://one00-proyects-web.onrender.com/",
-    codigo: "https://github.com/joseMunozNunez10/100-days-of-coding-in-JS",
-    categoria: "frontend",
-  },
-  {
-    titulo: "PlaniFy",
-    descripcion:
-      "App Web para organizar tus proyectos, hecha con React + Vite, TypeScript y Tailwind para los estilos.",
-    imagen:
-      "https://i.pinimg.com/736x/8f/f0/bb/8ff0bbd0e5844ed254bede44522c8338.jpg",
-    tecnologias: ["React", "Vite", "TypeScript", "Tailwind"],
-    demo: "https://planify-1tu6.onrender.com/",
-    codigo: "https://github.com/joseMunozNunez10/PlaniFy-organization-app",
-    categoria: "frontend",
-  },
-  {
-    titulo: "Verbenas Paisajes",
-    descripcion:
-      "Pagina estatica desarrollada con Astro y tailwind como reto para una startup.",
-    imagen: Verbenas.src,
-    tecnologias: ["Astro", "Tailwind", "JavaScript"],
-    demo: "https://challenge-neowyze.onrender.com/",
-    codigo: "https://github.com/joseMunozNunez10/challenge-Neowyze.git",
-    categoria: "frontend",
-  },
-  {
-    titulo: "API REST",
-    descripcion:
-      "API RESTful construida con Express y MongoDB para gestionar tareas con operaciones CRUD, Registro de usuarios y login con JWT.",
-    imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
-    tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
-    demo: "https://back-express-todo.onrender.com",
-    codigo: "https://github.com/joseMunozNunez10/Back-express-todo.git",
-    categoria: "backend",
-  },
+      "https://i.pinimg.com/736x/0f/41/b2/0f41b244f6fb422a7e2c14c989392888.jpg",
+    tecnologias: ["Kotlin", "MVVM", "Hilt", "Jetpack Navigation", "Coroutines"],    
+    codigo: "https://github.com/joseMunozNunez10/AgendaPersonal",
+    categoria: "",
+  }
 ];

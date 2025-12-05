@@ -22,6 +22,19 @@ export const profileData = {
 // EXPERIENCIA LABORAL
 // ============================================
 export const experience = [
+    {
+    title: "Gala Taiel - centro de eventos",
+    company: "Freelance",
+    time: ["2025"],
+    description:
+      "Desarrollo de aplicaciones móviles nativas para Android para una red socila interna del evento .",
+    list: [
+      "Kotlin, MVVM y Jetpack Compose para interfaces modernas y reactivas",      
+      "Persistencia de datos con Room, Flow y LiveData",
+      "Implementación de Material Design 3 y navegación por componentes",
+      "Backend con Firebaese (Firestore, Authentication, Storage)",
+    ],
+  },
   {
     title: "Android Developer - Freelance",
     company: "Freelance",

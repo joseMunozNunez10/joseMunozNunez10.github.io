@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { FaRegCopy } from "react-icons/fa";
+import { profileData } from "../../data/config.js";
 
 export default function EmailCopy() {
   const [copied, setCopied] = useState(false);
-  const email = "";
+  const email = profileData.email || "";
 
   const copyToClipboard = async () => {
     if (!email) return;
