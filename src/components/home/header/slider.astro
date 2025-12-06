@@ -1,39 +1,238 @@
----
-const technologies = [
-  "astro",
-  "react",
-  "typeScript",
-  "tailwindcss",
-  "nodejs",
-  "HTML5",
-  "CSS3",
-  "javaScript",
-  "git",
-  "supabase",
-  "mysql",
-  "bash",
-];
----
-
 <div class="relative overflow-x-hidden px-8 py-8">
   <div class="animate-scroll hover:animate-paused flex w-max gap-12 md:gap-20">
-    {
-      technologies.concat(technologies, technologies).map((tech) => (
-        <div class="group flex items-center gap-2 transition-all duration-300">
-          <img
-            src={`/svg/${tech}.svg`}
-            alt={tech}
-            class="h-7 w-auto object-contain  transition-transform group-hover:scale-110"
-            width="30"
-            height="30"
-            loading="lazy"
-          />
-          <span class="text-lg font-medium text-white">
-            {tech.charAt(0).toUpperCase() + tech.slice(1)}
-          </span>
-        </div>
-      ))
-    }
+    <!-- Kotlin -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/kotlin-svgrepo-com.svg"
+        alt="kotlin"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Kotlin </span>
+    </div>
+
+    <!-- Java -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/java-logo-svgrepo-com.svg"
+        alt="java"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Java </span>
+    </div>
+
+    <!-- Android Studio -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/logo-google-android-studio-svgrepo-com.svg"
+        alt="android studio"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Android Studio </span>
+    </div>
+
+    <!-- XML -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/xml-document-svgrepo-com.svg"
+        alt="xml"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> XML </span>
+    </div>
+
+    <!-- Firebase -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/firebase-svgrepo-com.svg"
+        alt="firebase"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Firebase </span>
+    </div>
+
+    <!-- SQLite -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/sqlite-svgrepo-com.svg"
+        alt="sqlite"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> SQLite </span>
+    </div>
+
+    <!-- Material Design -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/material-design-svgrepo-com.svg"
+        alt="material design"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Material Design </span>
+    </div>
+
+    <!-- Git -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/git.svg"
+        alt="git"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Git </span>
+    </div>
+
+    <!-- Android -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/android-svgrepo-com.svg"
+        alt="android"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Android </span>
+    </div>
+
+    <!-- Kotlin (repeat) -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/kotlin-svgrepo-com.svg"
+        alt="kotlin"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Kotlin </span>
+    </div>
+
+    <!-- Java (repeat) -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/java-logo-svgrepo-com.svg"
+        alt="java"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Java </span>
+    </div>
+
+    <!-- Android Studio (repeat) -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/logo-google-android-studio-svgrepo-com.svg"
+        alt="android studio"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Android Studio </span>
+    </div>
+
+    <!-- XML (repeat) -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/xml-document-svgrepo-com.svg"
+        alt="xml"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> XML </span>
+    </div>
+
+    <!-- Firebase (repeat) -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/firebase-svgrepo-com.svg"
+        alt="firebase"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Firebase </span>
+    </div>
+
+    <!-- SQLite (repeat) -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/sqlite-svgrepo-com.svg"
+        alt="sqlite"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> SQLite </span>
+    </div>
+
+    <!-- Material Design (repeat) -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/material-design-svgrepo-com.svg"
+        alt="material design"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Material Design </span>
+    </div>
+
+    <!-- Git (repeat) -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/git.svg"
+        alt="git"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Git </span>
+    </div>
+
+    <!-- Android (final repeat for carousel loop) -->
+    <div class="group flex items-center gap-2 transition-all duration-300">
+      <img
+        src="/svg/android-svgrepo-com.svg"
+        alt="android"
+        class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
+        width="30"
+        height="30"
+        loading="lazy"
+      />
+      <span class="text-lg font-medium text-white"> Android </span>
+    </div>
   </div>
 </div>
 
