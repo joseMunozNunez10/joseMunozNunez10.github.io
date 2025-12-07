@@ -8,12 +8,15 @@ export default function NotificationBell() {
 
   // Notificaciones
   const baseNotifications = [
-    { id: 1, text: "Nuevo proyecto publicado 🚀", read: false },
+    { id: 1, 
+      text: "Nuevo proyecto publicado 🚀", 
+      read: false },
     {
       id: 2,
-      text: "Hey como va?, te comento que actualmente estoy aprendiendo desarrollo móvil ✨",
+      text: "Hey como va?, te comento que actualmente estoy aprendiendo desarrollo Jetpack Compose ✨",
       read: false,
     },
+    { id: 3, text: "Gracias por visitar mi portafolio! estoy en busqueda de empleo 😊", read: true },
   ];
 
   // Obtener el id

@@ -15,10 +15,10 @@ import { proyectos } from "../data/projectData.js";
     <button class="filter-btn cursor-pointer rounded-full bg-[#69c7c7] px-5 py-1.5 text-sm font-bold text-[#1d1250] drop-shadow-[2px_2px_0_#7836cf] transition-all duration-150 active:translate-y-0.5 active:drop-shadow-none" data-filter="all">
       Todos
     </button>
-    <button class="filter-btn cursor-pointer rounded-full bg-[#69c7c7] px-5 py-1.5 text-sm font-bold text-[#1d1250] drop-shadow-[2px_2px_0_#7836cf] transition-all duration-150 active:translate-y-0.5 active:drop-shadow-none" data-filter="Android">
+    <button class="filter-btn cursor-pointer rounded-full bg-[#69c7c7] px-5 py-1.5 text-sm font-bold text-[#1d1250] drop-shadow-[2px_2px_0_#7836cf] transition-all duration-150 active:translate-y-0.5 active:drop-shadow-none" data-filter="android">
       Android
     </button>
-    <button class="filter-btn cursor-pointer rounded-full bg-[#69c7c7] px-5 py-1.5 text-sm font-bold text-[#1d1250] drop-shadow-[2px_2px_0_#7836cf] transition-all duration-150 active:translate-y-0.5 active:drop-shadow-none" data-filter="Desarrollo Web">
+    <button class="filter-btn cursor-pointer rounded-full bg-[#69c7c7] px-5 py-1.5 text-sm font-bold text-[#1d1250] drop-shadow-[2px_2px_0_#7836cf] transition-all duration-150 active:translate-y-0.5 active:drop-shadow-none" data-filter="desarrollo-web">
       Desarrollo Web
     </button>
   </div>
@@ -102,14 +102,16 @@ import { proyectos } from "../data/projectData.js";
   }
 
   /* ---------------- FILTRADO ---------------- */
+  const normalize = (value = "") => value.toLowerCase().replace(/\s+/g, "-");
+
   function applyFilter(filter) {
     activeFilter = filter ?? "all";
-    const normalized = activeFilter.toLowerCase();
+    const normalized = normalize(activeFilter);
 
     cards = Array.from(document.querySelectorAll("[data-index]"));
 
     const filteredCards = cards.filter((card) => {
-      const categoria = (card.dataset.categoria ?? "").toLowerCase();
+      const categoria = normalize(card.dataset.categoria ?? "");
       return normalized === "all" || categoria === normalized;
     });
 
@@ -129,8 +131,8 @@ import { proyectos } from "../data/projectData.js";
     if (!filterButtons.length) return;
     filterButtons.forEach((btn) => {
       btn.onclick = () => {
-        itemsToShow = INITIAL_VISIBLE; 
-        const filter = btn.dataset.filter || "all";
+        itemsToShow = INITIAL_VISIBLE;
+        const filter = normalize(btn.dataset.filter || "all");
         setActiveButton(btn);
         applyFilter(filter);
       };
