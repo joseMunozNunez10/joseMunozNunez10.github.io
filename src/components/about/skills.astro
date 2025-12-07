@@ -21,9 +21,10 @@
         { name: "GitHub", icon: "github" },
         { name: "Android Studio", icon: "androidstudio" },
         { name: "Firebase", icon: "firebase" },
-        { name: "Material Design", icon: "materialdesign" },
-        { name: "Jetpack Compose", icon: "jetpack" },
-        { name: "MVVM", icon: "mvvm" },
+        // Algunos no tienen icono propio en devicon; usamos Android como fallback
+        { name: "Material Design", icon: "android" },
+        { name: "Jetpack Compose", icon: "android" },
+        { name: "MVVM", icon: "android" },
       ].map((skill) => (
         <div class="relative group">
           <div class="absolute inset-0 -z-10 rounded-lg  blur-3xl opacity-0 transition-opacity group-hover:opacity-100" />
