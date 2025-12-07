@@ -32,6 +32,6 @@ export const proyectos = [
       "https://i.pinimg.com/736x/0f/41/b2/0f41b244f6fb422a7e2c14c989392888.jpg",
     tecnologias: ["Kotlin", "MVVM", "Hilt", "Jetpack Navigation", "Coroutines"],    
     codigo: "https://github.com/joseMunozNunez10/AgendaPersonal",
-    categoria: "",
+    categoria: "Android",
   }
 ];
