@@ -33,5 +33,14 @@ export const proyectos = [
     tecnologias: ["Kotlin", "MVVM", "Hilt", "Jetpack Navigation", "Coroutines"],    
     codigo: "https://github.com/joseMunozNunez10/AgendaPersonal",
     categoria: "Android",
+  },
+  {
+    titulo: "Maestranza San Sebastian",
+    descripcion:
+      "Empresa especializada en trabajos metálicos, ofreciendo soluciones integrales para proyectos industriales, comerciales y residenciales con calidad y cumplimiento de plazo.",
+    imagen: "https://i.pinimg.com/736x/57/7f/75/577f75825c09c5672e2f08ffd08c55a5.jpg",
+    tecnologias: ["html", "css", "javascript", "bootstrap","php"],  
+    codigo: "https://github.com/joseMunozNunez10/maestranza-san-sebastian",
+    categoria: "Full Stack",
   }
 ];
