@@ -39,8 +39,19 @@ export const proyectos = [
     descripcion:
       "Empresa especializada en trabajos metálicos, ofreciendo soluciones integrales para proyectos industriales, comerciales y residenciales con calidad y cumplimiento de plazo.",
     imagen: "https://i.pinimg.com/736x/57/7f/75/577f75825c09c5672e2f08ffd08c55a5.jpg",
-    tecnologias: ["html", "css", "javascript", "bootstrap","php"],  
+    tecnologias: ["html", "css", "javascript", "bootstrap","php"],
+    demo: "https://www.maestranzasansebastian.cl",
     codigo: "https://github.com/joseMunozNunez10/maestranza-san-sebastian",
+    categoria: "Full Stack",
+  },
+   {
+    titulo: "Transportes Mazem spa",
+    descripcion:
+      "Servicio de transporte privado en vehículos sedán, enfocado en seguridad, puntualidad y una experiencia cómoda para cada pasajero.",
+    imagen: "https://i.pinimg.com/736x/5f/4b/06/5f4b061c88a95e37ad02e251fbe356ca.jpg",
+    tecnologias: ["html", "css", "javascript", "bootstrap","php"],
+    demo: "https://www.transportesmazem.cl",
+    codigo: "https://github.com/joseMunozNunez10/TransportesMazem",
     categoria: "Full Stack",
   }
 ];
